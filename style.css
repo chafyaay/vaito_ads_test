@@ -1,0 +1,232 @@
+.canvas {
+    width: 650px;
+    height: 550px;
+    position: relative;
+    border: 1px solid
+}
+
+.logo{
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    z-index: 19;
+}
+
+.close{
+
+    left: 50px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 9;
+    top: 50px;
+    transition: top 500ms, left 500ms, opacity 500ms
+
+}
+.accroche{
+
+    width: 261px;
+    left: 129px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 9;
+    top: 67px;
+    transition: top 500ms, left 500ms;
+
+}
+.cercles{
+
+    left:-40px;
+    position: absolute;
+    cursor: pointer;
+    z-index:2;
+    top: 360px;
+    transition: top 500ms, left 500ms;
+    visibility: hidden;
+
+}
+.orange{
+   
+
+    left:500px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 9;
+    top: 360px;
+    transition: top 500ms, left 500ms;
+    /* visibility: hidden; */
+
+}
+.etap1 {
+    width: 454px;
+    left: 90px;
+   top: 216px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 2;
+    
+    transition: top 500ms, left 500ms, opacity 500ms;
+}
+.PHOTO_1, .PHOTO_2, .PHOTO_3, .PHOTO_21, .PHOTO_22, .PHOTO_23{
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    transition: top 500ms, left 500ms, opacity 500ms;
+    z-index: 9;
+    cursor: pointer;
+
+
+}
+.PHOTO_1{
+    left: 443px;
+   
+    top: 50px;
+}
+.PHOTO_2{
+    left: 10px;
+    top: 116px;
+}
+.PHOTO_3{
+    left: 250px;
+    top: 365px;
+}
+/* etape 2 */
+.PHOTO_21{
+    left: 450px;
+    top: 152px;
+}
+.PHOTO_22{
+    left: 11px;
+    top: 201px;
+}
+.PHOTO_23{
+    left: 305px;
+    top: 390px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gopro{
+
+width: 170px;
+height: 198px;;  
+
+    left: 50px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 9;
+    top: 137px;
+    transition: top 500ms, left 500ms,width 500ms,height 500ms,opacity 500ms;
+}
+.btnParticipe{
+  
+
+    left: 228px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 9;
+    top: 432px;
+    transition: top 500ms, left 500ms, opacity 500ms;
+
+}
+
+
+
+
+
+
+
+
+#cercle {
+    z-index: 0;
+    border-radius: 50%;
+    background: #cccccc;
+    position: absolute;
+    left: 500px;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    transition: left 500ms, top 500ms, width 500ms, height 500ms, opacity 500ms;
+}
+
+.btn {
+
+    cursor: pointer;
+    border-radius: 50%;
+    border: 0;
+    background: goldenrod;
+    width: 50px;
+    height: 50px;
+    transition: top 500ms;
+    position: absolute;
+    top: 160px;
+    background-repeat: no-repeat !important;
+    padding: 0;
+    background-position:50% 50% !important 
+}
+.btn:hover{
+    height: 60px !important ;
+    width: 60px !important 
+    
+}
+.btn1 {
+    left: 226px;
+    background: url('img/SMALL_1.png');
+  
+}
+.btn1:hover{
+	
+	background: url('img/BIG_1.png')
+}
+
+.btn2 {
+    left: 290px;
+	background: url('img/SMALL_2.png')
+}
+.btn2:hover{
+	
+	background: url('img/BIG_2.png')
+}
+
+.btn3 {
+    left: 355px;
+	background: url('img/SMALL_3.png')
+}
+
+.btn3:hover{
+	
+	background: url('img/BIG_3.png')
+}
+
+.rectangle {
+    left: 140px;
+    border: 8px solid white;
+    background: transparent;
+    position: absolute;
+    width: 325px;
+    height: 186px;
+    top: 300px;
+    transition: top 500ms,top 500ms,opacity 500ms;
+}
+
+.img {
+    background: blueviolet;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 140px;
+    top: 250px;
+    transition: top 500ms
+}
